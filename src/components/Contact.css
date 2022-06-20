@@ -1,0 +1,62 @@
+.contact {
+display: inline-flex;
+width: 50%;
+padding-right: 20px;
+margin-right: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+text-align: center;
+border: 5px solid rgb(255, 255, 255);
+border-radius: 30px;
+justify-content: space-around;
+align-content: flex-start;
+flex-grow: nowrap;
+align-items: stretch;
+background-color: #FFFFF2;
+padding-bottom: 20pxs;
+}
+
+.contact:last-child{
+    border-bottom: 1px solid transparent;
+}
+
+.contactAvatar {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    padding: 20px;
+    /* border-right: 2px solid #75C9C8; */
+}
+
+.contactAvatar img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1000px;
+    object-fit: cover;
+}
+
+.contactnfo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.contactContentDesc {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+}
+
+.contactContentPhone{
+    margin: 0;
+    text-align: left;
+}
+
+.contactContentEmail{
+    margin: 0;
+    font-size: 0.9rem;
+}
